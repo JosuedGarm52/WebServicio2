@@ -1,4 +1,4 @@
-package com.example.webservicio2.models
+package com.example.webservicio2.models.RandomUser
 
 data class Login(
     val md5: String,

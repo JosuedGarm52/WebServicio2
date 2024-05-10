@@ -10,4 +10,10 @@ object RetroFitObject {
         .addConverterFactory(GsonConverterFactory.create())
         .build()
         .create(RandomApi :: class.java)// es de tipo randomApi
+
+    val url_rickandmorty = Retrofit.Builder()
+        .baseUrl("https://rickandmortyapi.com/")
+        .addConverterFactory(GsonConverterFactory.create())
+        .build()
+        .create(RickAndMortyApi :: class.java)
 }
