@@ -59,6 +59,8 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
 
+    implementation("com.github.bumptech.glide:glide:4.14.2")
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
